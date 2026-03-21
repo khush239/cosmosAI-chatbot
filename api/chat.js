@@ -63,7 +63,7 @@ export default async function handler(req) {
     });
 
     // Use the Web Standard Response (AI SDK Core 3.x+ native)
-    return result.toDataStreamResponse({
+    return result.toUIMessageStreamResponse({
       headers: {
         // Optional CORS headers if needed for direct access, Vercel handles this mostly
         'Access-Control-Allow-Origin': '*',
