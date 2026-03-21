@@ -5,11 +5,16 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "start": "node local.js",
     "server": "node local.js",
     "build": "vite build",
     "lint": "eslint ."
   },
   "dependencies": {
+    "vite": "^5.4.21",
+    "@vitejs/plugin-react": "^4.7.0",
+    "tailwindcss": "^4.2.2",
+    "@tailwindcss/vite": "^4.2.2",
     "express": "^4.21.0",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
@@ -29,10 +34,6 @@
     "remark-gfm": "^4.0.1"
   },
   "devDependencies": {
-    "vite": "^5.4.21",
-    "@vitejs/plugin-react": "^4.7.0",
-    "tailwindcss": "^4.2.2",
-    "@tailwindcss/vite": "^4.2.2",
     "autoprefixer": "^10.4.27",
     "postcss": "^8.5.8",
     "eslint": "^9.39.4"
