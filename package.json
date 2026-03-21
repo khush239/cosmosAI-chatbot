@@ -1,0 +1,40 @@
+{
+  "name": "cosmos-ai",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "server": "node local.js",
+    "build": "vite build",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "@google/generative-ai": "^0.24.1",
+    "express-rate-limit": "^7.4.1",
+    "helmet": "^8.0.0",
+    "lucide-react": "^0.577.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "framer-motion": "^12.38.0",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^3.5.0",
+    "ai": "^6.0.134",
+    "@ai-sdk/react": "^3.0.136",
+    "@ai-sdk/google": "^3.0.52",
+    "react-markdown": "^10.1.0",
+    "remark-gfm": "^4.0.1"
+  },
+  "devDependencies": {
+    "vite": "^5.4.21",
+    "@vitejs/plugin-react": "^4.7.0",
+    "tailwindcss": "^4.2.2",
+    "@tailwindcss/vite": "^4.2.2",
+    "autoprefixer": "^10.4.27",
+    "postcss": "^8.5.8",
+    "eslint": "^9.39.4"
+  }
+}
